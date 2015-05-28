@@ -8,6 +8,12 @@ ruby:
   image_url: url_de_prueba.png
   price: 9.99
 
+one:
+  title: MyString
+  description: MyText
+  image_url: MyString
+  price: 9.99
+
 two:
   title: MyString
   description: MyText

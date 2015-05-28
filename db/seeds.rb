@@ -5,3 +5,15 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Product.delete_all
+#...
+Product.create!(
+	title: 'Harry Potter y la piedra filosofal',
+	description: %{
+		<p>
+		Primer libro de la Saga de Harry Potter.
+		</p>
+	},
+	image_url: 'hp1.jpg',
+	price: 25.50
+)

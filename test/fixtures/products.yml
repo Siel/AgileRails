@@ -1,9 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+# A fixture is a specification of the initial
+# contents of a model or models under test
 
-one:
-  title: MyString
-  description: MyText
-  image_url: MyString
+ruby:
+  title: Titulo de prueba
+  description: Descripción de prueba
+  image_url: url_de_prueba.png
   price: 9.99
 
 two:

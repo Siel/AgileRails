@@ -17,3 +17,13 @@ Product.create!(
 	image_url: 'hp1.jpg',
 	price: 25.50
 )
+Product.create!(
+	title: 'Harry Potter y la cámara secreta',
+	description: %{
+		<p>
+		Segundo libro de la Saga de Harry Potter.
+		</p>
+	},
+	image_url: 'hp2.jpg',
+	price: 24.50
+)
